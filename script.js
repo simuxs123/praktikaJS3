@@ -41,3 +41,10 @@ console.log(`${arr[2]} ${arr[4]}`);
 for(let i=0; i<arr.length; i++){
     console.log(`${arr[i]}`);
 }
+
+function skaiciavimas(pav,kain){
+    let isViso=kain*5;
+    console.log(`5 ${pav} kainuos ${isViso}`);
+
+}
+skaiciavimas("braske",5.5);
